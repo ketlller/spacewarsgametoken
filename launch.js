@@ -84,6 +84,28 @@
     return $('credits').style.display = 'none';
   };
 
+  
+  
+  
+  
+  
+  
+   $('s-credits7').onclick = function() {
+    $('step-1').style.display = 'none';
+    return $('credits7').style.display = 'block';
+  };
+
+  $('credits7').onclick = function() {
+    $('step-1').style.display = 'block';
+    return $('credits7').style.display = 'none';
+  }; 
+  
+  
+  
+  
+  
+  
+  
   hasWebGL = function() {
     var canvas, gl;
     gl = null;
