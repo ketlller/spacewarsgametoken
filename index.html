@@ -98,21 +98,23 @@
       
       
 
-      <button class="enableEthereumButton">Enable Ethereum</button>
+<button class="enableEthereumButton">Enable Ethereum</button>
+<h2>Account: <span class="showAccount"></span></h2>
 
 <script>
 const ethereumButton = document.querySelector('.enableEthereumButton');
+const showAccount = document.querySelector('.showAccount');
 
 ethereumButton.addEventListener('click', () => {
-  //Will Start the metamask extension
-  ethereum.request({ method: 'eth_requestAccounts' });
+  getAccount();
 });
-</script>
-      
-      
-      
-      
 
+async function getAccount() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const account = accounts[0];
+  showAccount.innerHTML = account;
+}
+</script>
       
       
       
@@ -195,16 +197,24 @@ ethereumButton.addEventListener('click', () => {
     
     
     
-   <button class="enableEthereumButton">Enable Ethereum</button>
+ 
+<button class="enableEthereumButton">Enable Ethereum</button>
+<h2>Account: <span class="showAccount"></span></h2>
 
 <script>
 const ethereumButton = document.querySelector('.enableEthereumButton');
+const showAccount = document.querySelector('.showAccount');
 
 ethereumButton.addEventListener('click', () => {
-  //Will Start the metamask extension
-  ethereum.request({ method: 'eth_requestAccounts' });
+  getAccount();
 });
-</script> 
+
+async function getAccount() {
+  const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+  const account = accounts[0];
+  showAccount.innerHTML = account;
+}
+</script>
     
     
     
