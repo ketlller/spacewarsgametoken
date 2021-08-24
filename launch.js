@@ -103,6 +103,17 @@
   
   
   
+    $('s-credits8').onclick = function() {
+    $('step-1').style.display = 'none';
+    return $('credits8').style.display = 'block';
+  }; 
+  
+    $('credits8').onclick = function() {
+    $('step-1').style.display = 'block';
+    return $('credits8').style.display = 'none';
+  }; 
+  
+  
   
   
   
