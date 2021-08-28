@@ -314,7 +314,8 @@ html, body {
 
 .about-title {
   font-family: sans-serif;
-  font-size: 15px;
+  color: white;
+  font-size: 20px;
   text-align: center;
   position: relative;
   opacity: .8;
