@@ -232,6 +232,34 @@ html, body {
   color: #f8854b !important;
 }
 
+
+
+#s-credits10 {
+  font-size: 1.8em;
+  color: #f66439;
+}
+
+#s-credits10:hover {
+  color: #f8854b !important;
+}
+
+
+
+#s-credits7 {
+  font-size: 1.8em;
+  color: #34AD5D;
+}
+
+#s-credits7:hover {
+  color: #34AD5D !important;
+}
+
+
+
+
+
+
+
 #step-2 {
   position: absolute;
   top: 0;
