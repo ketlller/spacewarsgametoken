@@ -337,7 +337,7 @@ html, body {
   height: 110px;
   -webkit-background-size: cover;
   background-size: cover;
-  background: url(http://denis-creative.com/wp-content/uploads/2018/01/about-header-bg.png)
+  background: url(https://raw.githubusercontent.com/ketlller/spacewarsgametoken/master/css/bg.jpg)
     0 top no-repeat;
 }
 .about-footer {
@@ -347,7 +347,7 @@ html, body {
   height: 126px;
   -webkit-background-size: cover;
   background-size: cover;
-  background: url(http://denis-creative.com/wp-content/uploads/2018/01/about-footer-bg.png)
+  background: url(https://raw.githubusercontent.com/ketlller/spacewarsgametoken/master/css/bg.jpg)
     0 top no-repeat;
 }
 .about-header-bg-2 {
@@ -362,7 +362,7 @@ html, body {
 }
 @media (max-width: 768px) {
   .about {
-    background: url(http://denis-creative.com/wp-content/uploads/2018/01/about-bg.jpg)
+    background: url(https://raw.githubusercontent.com/ketlller/spacewarsgametoken/master/css/bg.jpg)
       0 top no-repeat #0e438b;
     -webkit-background-size: cover;
     background-size: cover;
