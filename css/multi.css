@@ -269,35 +269,7 @@ html, body {
 
 
 
-#credits7 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 9999;
-  background: black;
-  overflow-y: auto;
-  text-align: center;
-  color: white;
-  font-size: 1.1em;
-  padding: 40px 20px;
-}
 
-#credits7 h3 {
-  font-size: 2em;
-  color: #666;
-}
-
-#credits7 b {
-  font-size: 1.2em;
-  color: #bbb;
-}
-
-#credits7 h4 {
-  color: #555;
-  font-size: 1.2em;
-}
 
 
 
