@@ -90,15 +90,15 @@
   
   
   
-//   $('s-credits7').onclick = function() {
-//    $('step-1').style.display = 'none';
-//    return $('credits7').style.display = 'block';
-//  };
+   $('s-credits7').onclick = function() {
+    $('step-1').style.display = 'none';
+   return $('credits7').style.display = 'block';
+ };
 
-//  $('credits7').onclick = function() {
-//    $('step-1').style.display = 'block';
- //   return $('credits7').style.display = 'none';
-//  }; 
+  $('credits7').onclick = function() {
+    $('step-1').style.display = 'block';
+   return $('credits7').style.display = 'none';
+  }; 
   
   
   
