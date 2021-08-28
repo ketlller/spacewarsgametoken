@@ -125,6 +125,25 @@ html, body {
   color: #0000FF;
 }
 
+
+
+#menu1 {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'BebasNeueRegular', arial, sans-serif;
+  text-transform: uppercase;
+  color: #0000FF;
+}
+
+
+
+
+
 #menu div {
   padding: 0.1em 0 0 0;
   margin: 0 0;
