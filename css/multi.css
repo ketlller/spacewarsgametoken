@@ -145,8 +145,8 @@ html, body {
 
 #menu2 {
   position: absolute;
-    top: -5px;
-    left: -10px;
+    top: 10px;
+    left: 10px;
   display: block;
   width: 100%;
   max-width: 200px;
