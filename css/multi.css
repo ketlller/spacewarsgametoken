@@ -143,7 +143,20 @@ html, body {
 }
 
 
-
+#menu2 {
+  position: absolute;
+    top: -15px;
+    left: -10px;
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'BebasNeueRegular', arial, sans-serif;
+  text-transform: uppercase;
+  color: #0000FF;
+}
 
 
 #menu div {
