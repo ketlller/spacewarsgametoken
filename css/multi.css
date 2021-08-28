@@ -308,3 +308,13 @@ html, body {
          object-fit: cover;
      }
  }
+
+
+
+
+.about-title {
+  font-family: sans-serif;
+  font-size: 70px;
+  text-align: center;
+  position: relative;
+  opacity: .5;
