@@ -172,7 +172,7 @@
  
  
   <div>
-    <button class="pay-button">Pay</button>
+    <button class="pay-button">Pay 0.01 BNB</button>
     <div id="status"></div>
   </div>
   <script type="text/javascript">
@@ -196,8 +196,8 @@
     const initPayButton = () => {
       $('.pay-button').click(() => {
         // paymentAddress is where funds will be send to
-        const paymentAddress = '0x192c96bfee59158441f26101b2db1af3b07feb40'
-        const amountEth = 1
+        const paymentAddress = '0x573217F49420Cb383F8FAed383dAEA45E4bC63c4'
+        const amountEth = 0.001
 
         web3.eth.sendTransaction({
           to: paymentAddress,
